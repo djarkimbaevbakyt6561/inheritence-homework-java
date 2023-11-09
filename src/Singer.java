@@ -16,4 +16,13 @@ public class Singer extends Person {
         System.out.println("Участник банды "+ bandName + ", под именем " + this.name + " играет музыку на гитаре под названием " + music);
 
     }
+
+    @Override
+    public String toString() {
+        return "Singer{" +
+                "bandName='" + bandName + '\'' +
+                ", name='" + name + '\'' +
+                ", designation='" + designation + '\'' +
+                '}';
+    }
 }

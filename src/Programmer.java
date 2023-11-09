@@ -12,4 +12,13 @@ public class Programmer extends Person {
         System.out.println("Программист под именем " + name + " c должностью " + designation + " работаяющий в компании " + companyName + " пишет код на языке " + language);
 
     }
+
+    @Override
+    public String toString() {
+        return "Programmer{" +
+                "companyName='" + companyName + '\'' +
+                ", name='" + name + '\'' +
+                ", designation='" + designation + '\'' +
+                '}';
+    }
 }

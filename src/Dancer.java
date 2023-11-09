@@ -12,4 +12,13 @@ public class Dancer extends Person {
     public void dancing(String dance) {
         System.out.println( "Участник группы " + groupName + " под именем " + name + " под должностью " + designation + " танцует танец " + dance);
     }
+
+    @Override
+    public String toString() {
+        return "Dancer{" +
+                "groupName='" + groupName + '\'' +
+                ", name='" + name + '\'' +
+                ", designation='" + designation + '\'' +
+                '}';
+    }
 }
